@@ -1,0 +1,17 @@
+:root { --bg:#0b1220; --panel:#121a2b; --panel2:#18243a; --ink:#f7fafc; --muted:#a7b4c8; --line:#29405f; --accent:#7dd3fc; }
+* { box-sizing:border-box; }
+html,body { margin:0; min-height:100%; background:radial-gradient(circle at top, rgba(125,211,252,.16), transparent 30%), linear-gradient(180deg, #08101d 0%, var(--bg) 100%); color:var(--ink); font-family:"Segoe UI",Tahoma,Geneva,Verdana,sans-serif; }
+body { padding:28px 18px 52px; }
+.shell { max-width:940px; margin:0 auto; }
+.hero { border:1px solid var(--line); border-radius:26px; padding:34px; background:linear-gradient(180deg, rgba(18,26,43,.94), rgba(11,18,32,.98)); box-shadow:0 18px 60px rgba(0,0,0,.32); }
+.eyebrow { display:inline-block; padding:6px 10px; border-radius:999px; border:1px solid var(--line); color:var(--accent); text-transform:uppercase; letter-spacing:.08em; font-size:12px; }
+h1 { font-size:clamp(34px,5vw,60px); line-height:.95; margin:18px 0 14px; }
+p { color:var(--muted); line-height:1.6; font-size:18px; }
+.grid { display:grid; gap:18px; margin-top:24px; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); }
+.card { padding:20px; border-radius:20px; border:1px solid var(--line); background:rgba(24,36,58,.72); }
+.card h2 { margin:0 0 8px; font-size:18px; }
+.actions { display:flex; flex-wrap:wrap; gap:12px; margin-top:24px; }
+.button { display:inline-block; padding:12px 18px; border-radius:999px; text-decoration:none; font-weight:600; }
+.button-primary { background:var(--accent); color:#062032; }
+.button-secondary { background:transparent; color:var(--ink); border:1px solid var(--line); }
+.footer { margin-top:22px; font-size:14px; color:var(--muted); }
