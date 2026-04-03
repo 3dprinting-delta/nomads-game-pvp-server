@@ -4,28 +4,42 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>nomads-game-pvp-server</title>
+    <meta http-equiv="refresh" content="0; url=https://nomads-game-pvp-live.onrender.com/" />
     <link rel="stylesheet" href="./site.css" />
   </head>
   <body>
     <main class="shell">
       <section class="hero">
-        <span class="eyebrow">GitHub Pages Landing</span>
+        <span class="eyebrow">Redirecting To Live App</span>
         <h1>nomads-game-pvp-server</h1>
         <p>
-          This repository now has a usable GitHub Pages URL. The full project depends on server or runtime features,
-          so this static landing page is the public front door for the repo on *.github.io.
+          This GitHub Pages URL now forwards to the live Render runtime for the multiplayer server.
+          If the redirect does not happen automatically, use the direct runtime link below.
         </p>
         <div class="grid">
-          <article class="card"><h2>Project Type</h2><p>node-backend</p></article>
-          <article class="card"><h2>Source of Truth</h2><p>The GitHub repository remains the canonical source for this project.</p></article>
-          <article class="card"><h2>Runtime Note</h2><p>Server APIs, SSR, sockets, or backend runtime are not executed on GitHub Pages.</p></article>
+          <article class="card"><h2>Project Type</h2><p>python-runtime</p></article>
+          <article class="card"><h2>Publish Mode</h2><p>render_runtime_with_pages_redirect</p></article>
+          <article class="card"><h2>Runtime URL</h2><p>https://nomads-game-pvp-live.onrender.com/</p></article>
         </div>
         <div class="actions">
-          <a class="button button-primary" href="https://github.com/3dprinting-delta/nomads-game-pvp-server">Open GitHub Repo</a>
-          <a class="button button-secondary" href="https://3dprinting-delta.github.io/nomads-game-pvp-server/">Refresh This GitHub Pages URL</a>
+          <a class="button button-primary" href="https://nomads-game-pvp-live.onrender.com/">Open Live Runtime</a>
+          <a class="button button-secondary" href="https://github.com/3dprinting-delta/nomads-game-pvp-server">Open GitHub Repo</a>
         </div>
-        <p class="footer">Future live-runtime URL slot: add a separately hosted runtime later if this project needs full server-backed behavior.</p>
+        <p class="footer">Canonical Pages URL: https://3dprinting-delta.github.io/nomads-game-pvp-server/</p>
       </section>
     </main>
+    <script>
+      window.location.replace("https://nomads-game-pvp-live.onrender.com/");
+    </script>
+    <noscript>
+      <main class="shell">
+        <section class="hero">
+          <p>
+            JavaScript is disabled. Open the live runtime here:
+            <a href="https://nomads-game-pvp-live.onrender.com/">https://nomads-game-pvp-live.onrender.com/</a>
+          </p>
+        </section>
+      </main>
+    </noscript>
   </body>
 </html>
