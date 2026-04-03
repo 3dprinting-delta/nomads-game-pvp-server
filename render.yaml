@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: nomads-game-pvp
+    runtime: python
+    plan: starter
+    buildCommand: pip install -r requirements.txt
+    startCommand: python server.py
+    healthCheckPath: /
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.14.3

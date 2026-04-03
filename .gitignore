@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.log
+cloudflared.exe
+*.sqlite
+*.db
+*.zip
+*.tar
+*.gz
